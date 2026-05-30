@@ -1,6 +1,6 @@
 cask "nehir" do
   version "0.1.0"
-  sha256 :no_check # Replace with the release ZIP SHA-256 before public distribution.
+  sha256 "2d20d4859bc471127e79e11ec648f30228ef86127afb3eb01409685527dd1e16"
 
   url "https://github.com/guria/nehir/releases/download/v#{version}/Nehir-#{version}.zip"
   name "Nehir"
