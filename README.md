@@ -15,6 +15,12 @@ Or without tapping first:
 brew install --cask guria/tap/nehir
 ```
 
+Preview releases are published as the RC cask:
+
+```bash
+brew install --cask guria/tap/nehir@rc
+```
+
 ## Release checklist
 
 From the main `guria/nehir` source repository:

@@ -12,6 +12,7 @@ cask "nehir" do
     strategy :github_latest
   end
 
+  conflicts_with cask: "nehir@rc"
   depends_on macos: :sequoia
 
   app "Nehir.app"
@@ -21,6 +22,7 @@ cask "nehir" do
 
   zap trash: [
     "~/.config/nehir",
+    "~/Library/Caches/com.nehir",
     "~/Library/Caches/dev.guria.nehir",
     "~/Library/Preferences/dev.guria.nehir.plist",
     "~/Library/Saved Application State/dev.guria.nehir.savedState",
