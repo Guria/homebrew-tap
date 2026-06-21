@@ -1,6 +1,6 @@
 cask "nehir@rc" do
-  version "0.6.0-rc.6"
-  sha256 "f58f3332aa578408f4ace5f81fc334a73cbb6acc1ee03ef30bd23c4c9da69635"
+  version "0.6.0-rc.7"
+  sha256 "1241209c03cd5408f10ab13ee6921964182fc4b3c4c6b5f341eb24d7a25e81db"
 
   url "https://github.com/guria/nehir/releases/download/v#{version}/Nehir-#{version}.zip"
   name "Nehir"
